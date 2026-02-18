@@ -239,6 +239,12 @@ p { color: var(--text-muted); margin-bottom: 1rem; }
     margin-bottom: 15px;
     display: block;
 }
+
+.tag-primary {
+    border-color: var(--accent) !important; /* Fialové orámování pro top skills */
+    color: white !important;
+    background: rgba(103, 35, 181, 0.1);
+}
 /* Styl pro technologii, kterou se učíš */
 .tag-learning {
     font-size: 0.85rem;
