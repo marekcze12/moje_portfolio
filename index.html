@@ -44,13 +44,13 @@
     <main>
         <section id="hero" class="hero-section">
             <div class="container fade-in">
-                <span class="badge">Junior Full Stack Developer</span>
+                <span class="badge">Junior Front-end Developer</span>
                 <h1 class="hero-title">
-                    Měním nápady na <br>
-                    <span class="text-gradient">funkční kód</span>.
+                    Tvořím interaktivní a <br>
+                    <span class="text-gradient">poutavý web</span>.
                 </h1>
                 <p class="hero-subtitle">
-                    Specializuji se na moderní vývoj s <strong class="text-white">HTML5</strong>, <strong class="text-white">CSS3</strong> a <strong class="text-white">Javascript</strong>.
+                    Specializuji se na moderní UI v <strong class="text-white">JavaScriptu</strong> a <strong class="text-white">Reactu</strong> s důrazem na čistý kód a UX.
                 </p>
                 <div class="hero-buttons">
                     <a href="#projects" class="btn btn-primary">Zobrazit projekty</a>
@@ -69,7 +69,7 @@
                         <div class="project-content">
                             <span class="project-overline">Featured Project</span>
                             <h3>Tréninkový deník KST LVA</h3>
-                            <p>Kompletní Full Stack řešení pro sportovní klub. Od návrhu databáze po implementaci front-endu. Aplikace umožňuje hráčům evidovat tréninky a trenérům analyzovat progres.</p>
+                            <p>V tomto projektu jsem se zaměřil na komplexní správu stavu aplikace a transformaci surových dat z databáze do přehledných interaktivních grafů (Chart.js), které uživateli poskytují okamžitou zpětnou vazbu.</p>
                             
                             <ul class="tech-list">
                                 <li>Python (Django)</li>
@@ -92,6 +92,34 @@
                             <img src="img/projekt1.png" alt="Ukázka aplikace Tréninkový deník" loading="lazy" style="width:100%; height:100%; object-fit:cover;">
                         </div>
                     </article>
+
+                    <article class="project-card fade-in delay-2">
+                        <div class="project-content">
+                            <span class="project-overline">Frontend & API Integration</span>
+                            <h3>Weather Dynamic App</h3>
+                            <p>Real-time aplikace demonstrující pokročilou práci s asynchronním JavaScriptem a externími API. Hlavním technickým přínosem je algoritmus pro dynamickou manipulaci s DOM a CSS proměnnými, který transformuje UI na základě meteorologických dat a denního cyklu.</p>
+
+                            <ul class="tech-list">
+                                <li>JavaScript (ES6+)</li>
+                                <li>OpenWeather API</li>
+                                <li>Geolocation API</li>
+                                <li>CSS3 Animations</li>
+                            </ul>
+
+                        <div class="project-links">
+                            <a href="https://manek-pocasi.netlify.app/" target="_blank" class="link-with-icon">
+                                Živá ukázka <span class="arrow">→</span>
+                            </a>
+
+                            <a href="https://github.com/marekcze12/Weather-App" target="_blank" class="link-with-icon">
+                                GitHub <span class="arrow">→</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-visual">
+                        <img src="img/projekt3.png" alt="Ukázka Weather App" loading="lazy" style="width:100%; height:100%; object-fit:cover;">
+                    </div>
+                    </article>
                 </div>
             </div>
         </section>
@@ -99,43 +127,42 @@
         <section id="skills" class="section bg-lighter">
             <div class="container">
                 <h2 class="section-title fade-in">Technologický Stack</h2>
-                
+        
                 <div class="skills-grid">
                     <div class="skill-card fade-in">
-                        <span class="material-symbols-outlined icon-large">database</span>
-                        <h3>Back-end & Data</h3>
-                        <p>Mé nejsilnější stránky. Tvorba API a práce s daty.</p>
+                        <span class="material-symbols-outlined icon-large">view_quilt</span>
+                            <h3>Front-end Core</h3>
+                            <p>Moje hlavní zaměření. Důraz na interaktivitu, výkon a čisté UI.</p>
                         <div class="tags">
-                            <span>Python / Django</span>
-                            <span>Node.js</span>
-                            <span>PostgreSQL</span>
-                            <span>PHP Symfony</span>
+                            <span class="tag-primary">JavaScript (ES6+)</span>
+                            <span class="tag-primary">HTML5 / CSS3</span>
+                            <span class="tag-learning">React <span class="learning-label">Learning</span></span>
+                            <span>Tailwind CSS</span>
+                            <span>Bootstrap</span>
                         </div>
                     </div>
 
                     <div class="skill-card fade-in delay-1">
-                        <span class="material-symbols-outlined icon-large">view_quilt</span>
-                        <h3>Front-end</h3>
-                        <p>Čistý kód a responzivní design.</p>
+                        <span class="material-symbols-outlined icon-large">database</span>
+                        <h3>Logic & API Integration</h3>
+                        <p>Díky přesahu do backendu rozumím tomu, jak se data dostávají na obrazovku.</p>
                         <div class="tags">
-                            <span>HTML5 / CSS3</span>
-                            <span>JavaScript (ES6+)</span>
-                            <span>Tailwind CSS</span>
-                            <span>Bootstrap</span>
-                            <span class="tag-learning">React <span class="learning-label">Learning</span></span>
+                            <span>Python / Django</span>
+                            <span>Node.js</span>
+                            <span>PostgreSQL</span>
+                            <span>Rest API</span>
                         </div>
                     </div>
 
                     <div class="skill-card fade-in delay-2">
                         <span class="material-symbols-outlined icon-large">terminal</span>
                         <h3>Tools & Design</h3>
-                        <p>Nástroje, které používám každý den.</p>
+                        <p>Nástroje, které mi pomáhají doručovat kvalitní kód a design.</p>
                         <div class="tags">
                             <span>Git / GitHub</span>
-                            <span>Figma</span>
+                            <span>Figma / Canva</span>
                             <span>Linux</span>
                             <span>Docker</span>
-                            <span>Canva</span>
                         </div>
                     </div>
                 </div>
@@ -146,9 +173,12 @@
             <div class="container split-layout">
                 <div class="about-text fade-in">
                     <h2 class="section-title">O mně</h2>
-                    <p class="lead">Jsem vývojář, který věří, že nejlepší kód je ten srozumitelný.</p>
-                    <p>Programování pro mě není jen psaní znaků, ale řešení reálných problémů. Rychle se adaptuji na nové technologie a aktivně vyhledávám zpětnou vazbu (Code Review), protože to je nejrychlejší cesta k růstu.</p>
+                    <p class="lead">Ahoj, jsem Marek a baví mě přetvářet designové návrhy ve funkční, pixel-perfect realitu. Jako Front-end Developer se soustředím na to, aby byl web nejen rychlý, ale i intuitivní. Díky své zkušenosti s Django a Node.js se dokážu efektivně domluvit s backendovými vývojáři a přesně vím, jak navrhnout frontend, který s API spolupracuje bez chybičky. Aktuálně žiju Reactem a hledám tým, kde bych mohl stavět moderní rozhraní.</p>
                     <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">React</span>
+                            <span class="stat-label">Current focus</span>
+                        </div>
                         <div class="stat-item">
                             <span class="stat-number">3+</span>
                             <span class="stat-label">Roky studia</span>
